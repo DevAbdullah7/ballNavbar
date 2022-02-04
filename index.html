@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <title>Ball Navbar</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="#contact">
+                    <div class="icon">
+                        <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                    </div>
+                    <div class="pageName">
+                        <div class="A">
+                            <p>مراسلة</p>
+                        </div>
+                        <div class="E">
+                            <p>Messege</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#profile">
+                    <div class="icon">
+                        <ion-icon name="person-add-outline"></ion-icon>
+                    </div>
+                    <div class="pageName">
+                        <div class="A">
+                            <p>التواصل</p>
+                        </div>
+                        <div class="E">
+                            <p>Profile</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#home" class="active">
+                    <div class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </div>
+                    <div class="pageName">
+                        <div class="A">
+                            <p>الرئيسية</p>
+                        </div>
+                        <div class="E">
+                            <p>Home</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li id="Mood">
+                <div class="icon">
+                    <div class="lightMood">
+                        <ion-icon name="sunny-outline"></ion-icon>
+                    </div>
+                    <div class="darkMood">
+                        <ion-icon name="moon-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="pageName">
+                    <div class="lightMood">
+                        <div class="A">
+                            <p>مشرق</p>
+                        </div>
+                        <div class="E">
+                            <p>Light</p>
+                        </div>
+                    </div>
+                    <div class="darkMood">
+                        <div class="A">
+                            <p>داكن</p>
+                        </div>
+                        <div class="E">
+                            <p>Dark</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li id="lang">
+                <div class="icon">
+                    <ion-icon name="globe-outline"></ion-icon>
+                </div>
+                <div class="pageName">
+                    <div class="A">
+                        <p>العربية</p>
+                    </div>
+                    <div class="E">
+                        <p>English</p>
+                    </div>
+                </div>
+            </li>
+            <div id="indicator" class="active2"></div>
+        </ul>
+    </div>
+    <div class="content"></div>
+    <!-- Js Files -->
+    <!-- iCons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
